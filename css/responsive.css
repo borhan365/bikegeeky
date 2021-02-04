@@ -1,0 +1,132 @@
+
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+    .logo{
+        text-align: left;
+    }
+    .main_desktop_menu{
+        display: none;
+    }
+    .content{
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .content h4{
+        font-size: 30px;
+    }
+    .content h1{
+        font-size: 80px;
+    }
+    /* brands */
+    .brands img{
+        max-width: 100%;
+    }
+    /* Blog Section one */
+    .post_thumb img, .single_list_items{
+        max-width: 100%;
+    }
+    /* Blog Section two */
+    .title{
+        max-width: 100%;
+    }
+    /* Blog section three */
+    .single_list_items_sec_three{
+        max-width: 100%;
+    }
+    /* Featured image */
+    .featured_img img{
+        max-width: 100%;
+    }
+    /* Blog section four */
+    .title{
+        padding: 30px;
+    }
+    .blog_feature{
+        max-width: 100%;
+        margin-left: 0px;
+    }
+    .blog_feature img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .blog_content{
+        padding: 30px;
+        margin-bottom: 0px;
+    }
+    .blog_content h2{
+        font-size: 40px;
+        line-height: 1;
+        
+    }
+    /* Read more */
+    .read_more{
+        margin-bottom: 20px;
+        margin-top: 20px; 
+    }
+    /* Social media */
+    .socialmedia{
+        
+    }
+    .socialmedia img{
+        height: 70px;
+        padding: 0px;
+    }
+    /* Footer section */
+    .footer_menu{
+        display: none;
+    }
+    .last_paragraph{
+        padding: 4px 10px 0px 10px;
+    }
+    /* Mobile menu */
+    .mobile_footer{
+        display: block;
+    }
+    /* Write for us */
+    .writeforus_content h2{
+        font-size: 27px;
+    }
+    .writeforus_content{
+        padding: 20px;
+    }
+    .form_section{
+        padding: 20px;
+        margin-bottom: 14px;
+    }
+    /* Contact us page */
+    .contact_content{
+        padding: 20px;
+        margin-top: 4px;
+        margin-bottom: -28px;
+    }
+}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    .main_mobile_menu{
+        display: none;
+    }
+    .navbar_mobile{
+        display: none;
+    }
+}
+
+/* function togglemobile(){
+    var show = document.getElementById('mainmobilemenu');
+
+    if(show.display == 'none'){
+       show.style.display = "block";
+       } else {
+           show.style.display = "none";
+       }
+    }
+
+   } */
